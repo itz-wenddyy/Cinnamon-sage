@@ -8,4 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(), 
   ],
+  // Add the repository subfolder path for GitHub Pages deployment
+  base: '/Cinnamon-sage/', 
 })
