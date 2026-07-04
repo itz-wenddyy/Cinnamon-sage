@@ -2,9 +2,16 @@ import { useRef } from "react";
 
 export default function AboutSlider() {
   const sliderRef = useRef(null);
+  
+  // Added "./" to the front of each string so GitHub Pages can locate them inside your public folder
   const images = [
-    "cute cafe.jpg", "matcha.webp", "green egg.jfif", 
-    "Ham and Cheese.avif", "toast.jfif", "cheese-danish-served.jpg", "muffin.jfif"
+    "./cute cafe.jpg", 
+    "./matcha.webp", 
+    "./green egg.jfif", 
+    "./Ham and Cheese.avif", 
+    "./toast.jfif", 
+    "./cheese-danish-served.jpg", 
+    "./muffin.jfif"
   ];
 
   const scroll = (offset) => {
