@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* Replace #4a69bd with any hex color code you prefer! */
+  --color-brand-primary: #84a86d; 
+  --color-brand-hover: #d2b48c;
+}
+
+.hero-bg-image {
+  background-image: linear-gradient(rgba(148, 134, 7, 0.277), rgba(0, 0, 0, 0.4)), url('/cute cafe.jpg');
+}
